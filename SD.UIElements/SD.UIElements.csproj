@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <EnableDefaultItems>false</EnableDefaultItems>
+	<DefineSilverlight>true</DefineSilverlight>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="EditArea.xaml.cs" />
+    <Compile Include="IDE.xaml.cs" />
+    <Compile Include="NewDocument.xaml.cs" />
+    <Compile Include="ObjectTree.xaml.cs" />
+    <Compile Include="PropertiesTool.xaml.cs" />
+    <Compile Include="ResourcesWindow.xaml.cs" />
+    <Compile Include="ToolbarMenu.xaml.cs" />
+    <Compile Include="ToolboxMenu.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Actions-document-open-folder-icon.png" />
+    <Content Include="Images\Actions-document-open-icon.png" />
+    <Content Include="Images\Actions-document-properties-icon.png" />
+    <Content Include="Images\Actions-document-save-as-icon.png" />
+    <Content Include="Images\Actions-document-save-icon.png" />
+    <Content Include="Images\Actions-select-rectangular-icon.png" />
+    <Content Include="Images\Arrow-icon_black.png" />
+    <Content Include="Images\Arrow-icon_white.png" />
+    <Content Include="Images\Button-Pause-icon.png" />
+    <Content Include="Images\Button-Play-icon.png" />
+    <Content Include="Images\Button-Rewind-icon.png" />
+    <Content Include="Images\image-icon.png" />
+    <Content Include="Images\ImageObjectIcon.png" />
+    <Content Include="Images\Mimetypes-application-pdf-icon.png" />
+    <Content Include="Images\Mimetypes-application-rtf-icon.png" />
+    <Content Include="Images\Movies-icon.png" />
+    <Content Include="Images\page-icon.png" />
+    <Content Include="Images\text-richtext-icon.png" />
+    <Content Include="Images\Very-Basic-Hand-cursor-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenSilver" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="EditArea.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="IDE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ObjectTree.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PropertiesTool.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ResourcesWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ToolbarMenu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ToolboxMenu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SD.ViewModels\SD.ViewModels.csproj" />
+  </ItemGroup>
+  
+</Project>

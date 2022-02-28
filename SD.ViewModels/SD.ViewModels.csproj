@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <EnableDefaultItems>false</EnableDefaultItems>
+	<DefineSilverlight>true</DefineSilverlight>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="DOM\ContainerVM.cs" />
+    <Compile Include="DOM\DocumentVM.cs" />
+    <Compile Include="DOM\ImageResource.cs" />
+    <Compile Include="DOM\ImageVM.cs" />
+    <Compile Include="DOM\MarginVM.cs" />
+    <Compile Include="DOM\PageVM.cs" />
+    <Compile Include="DOM\ResourceBase.cs" />
+    <Compile Include="DOM\ResourcesVM.cs" />
+    <Compile Include="DOM\TextVM.cs" />
+    <Compile Include="DOM\UIObjectVM.cs" />
+    <Compile Include="DOM\VideoResource.cs" />
+    <Compile Include="DOM\VideoVM.cs" />
+    <Compile Include="ExtFunc.cs" />
+    <Compile Include="FileUploaderDialog.cs" />
+    <Compile Include="OrientationToBooleanConverter.cs" />
+    <Compile Include="PropertyNameToReadOnlyConverter.cs" />
+    <Compile Include="PropertyWrapper.cs" />
+    <Compile Include="RelayCommand.cs" />
+    <Compile Include="UIViewModels\EditAreaVM.cs" />
+    <Compile Include="UIViewModels\IDEVM.cs" />
+    <Compile Include="UIViewModels\ToolbarMenuVM.cs" />
+    <Compile Include="UIViewModels\ToolBoxMenuVM.cs" />
+    <Compile Include="VMBase.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Class Diagrams\DOM.cd" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="OpenSilver" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SD.UserControls\SD.UserControls.csproj" />
+  </ItemGroup>
+  
+</Project>

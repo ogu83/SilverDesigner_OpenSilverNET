@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="SilverDesigner.EditArea"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="800" d:DesignWidth="1280" IsHitTestVisible="True">
+    <ScrollViewer x:Name="scrollViewer" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible">
+        <Border x:Name="innerBorder" 
+                Width="{Binding ScaledWidth, FallbackValue=1024}" Height="{Binding ScaledHeight, FallbackValue=768}" 
+                VerticalAlignment="Center" HorizontalAlignment="Center"
+                Cursor="{Binding MouseCursor}">
+            <Viewbox StretchDirection="Both" Stretch="Uniform">
+                <Grid x:Name="documentView" DataContext="{Binding Document}" Width="{Binding Width, FallbackValue=1024}" Height="{Binding Height, FallbackValue=768}" 
+                      MouseLeftButtonDown="EditArea_MouseLeftButtonDown"
+                      MouseLeftButtonUp="EditArea_MouseLeftButtonUp"
+                      MouseLeave="EditArea_MouseLeave"
+                      AllowDrop="True" Drop="EditArea_Drop"
+                      Background="Transparent" Canvas.ZIndex="1">
+                    <!--<TextBlock Text="This is a document" FontSize="72" VerticalAlignment="Center"  HorizontalAlignment="Center" />-->
+                </Grid>
+            </Viewbox>
+        </Border>
+    </ScrollViewer>
+</UserControl>

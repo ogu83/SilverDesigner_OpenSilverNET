@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <EnableDefaultItems>false</EnableDefaultItems>
+	<DefineSilverlight>true</DefineSilverlight>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="VideoPlayer.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\VideoObjectIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenSilver" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="VideoPlayer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  
+</Project>

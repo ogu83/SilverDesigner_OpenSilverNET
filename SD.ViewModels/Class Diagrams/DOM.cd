@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SilverDesigner.DOM.ContainerVM">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gIATAEAAAYAIlBDAAjAGBSEKCAIkAJAMCAIATAAAKJQ=</HashCode>
+      <FileName>DOM\ContainerVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SilverDesigner.DOM.DocumentVM">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEJEkAIIwAAIAQAACAAAAAAAIEAgBAAQAAAAAhAABg=</HashCode>
+      <FileName>DOM\DocumentVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SilverDesigner.DOM.ImageResource">
+    <Position X="4.25" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DOM\ImageResource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SilverDesigner.DOM.ImageVM">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAggAAIAAgAABAAAgAAAAAAAAAQAAAAACAAAAAAAABA=</HashCode>
+      <FileName>DOM\ImageVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SilverDesigner.DOM.MarginVM">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAEUCEQAAAAAAAMAYgACACAAAAAABA=</HashCode>
+      <FileName>DOM\MarginVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SilverDesigner.DOM.PageVM">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAABA=</HashCode>
+      <FileName>DOM\PageVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SilverDesigner.DOM.PagePositionVM">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAEEAAAAAAAAAAAAAAAgAAAAAAAgBA=</HashCode>
+      <FileName>DOM\PageVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SilverDesigner.DOM.ResourceBase">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SilverDesigner.DOM.ResourceBase.Types" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DOM\ResourceBase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAABAAAAAAAAAAAAAQAAAAAABAAAAABAgAAAAA=</HashCode>
+      <FileName>DOM\ResourceBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SilverDesigner.DOM.ResourcesVM">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAgAAIAIgIAAACAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DOM\ResourcesVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SilverDesigner.DOM.TextVM">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAABAAAEAAAAAAAAAAAAAAIAAAACAAAABA=</HashCode>
+      <FileName>DOM\TextVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SilverDesigner.DOM.UIObjectVM">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAoIIAAgBhCABAGAgEAAVEQAAFUAAAEBAAAABAAKIAI=</HashCode>
+      <FileName>DOM\UIObjectVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SilverDesigner.DOM.VideoResource">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DOM\VideoResource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SilverDesigner.DOM.VideoVM">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAABAAAAAAAAAAAAAQAAAAACAAAAAAAABA=</HashCode>
+      <FileName>DOM\VideoVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
